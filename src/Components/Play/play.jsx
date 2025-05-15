@@ -1,9 +1,6 @@
-import Main from '../Acceuil/acceuil'
+
 import './play.css'
-import paper from "/src/assets/images/icon-paper.svg"
-import rock from "/src/assets/images/icon-rock.svg"
-import cizo from "/src/assets/images/icon-scissors.svg"
- 
+
 export default function Play(props) {
     
     return(
