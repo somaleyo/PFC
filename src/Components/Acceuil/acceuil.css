@@ -2,26 +2,52 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 150px;
     
 }
 .triangle{
-    width: 220px;
+    width: 280px;
     z-index: -1;
 }
 
 .paper{
     position: absolute;
-    bottom:  43%;
-    left: 41%;
+    bottom:  41%;
+    left: 38%;
+    border: 16px solid hsl(230, 89%, 62%);
+    box-shadow: 0px 6px 0px 0px hsl(230, 75%, 43%);
 }
 .rock{
     position: absolute;
-    bottom: 16%;
-    left: 48%;
+    bottom: 15%;
+    left: 45%;
+    border: 16px solid hsl(349, 71%, 52%);
+    box-shadow: 0px 6px 0px 0px hsl(349, 69%, 36%);
+    box-sizing: 0px -10px 0px 0px black;
 }
 .cizo{
     position: absolute;
-    bottom: 43%;
-    right: 41%;
+    bottom: 41%;
+    right: 38%;
+    border: 16px solid hsl(39, 89%, 49%);
+    box-shadow: 0px 6px 0px 0px hsl(40, 79%, 35%);
 }
+.icon{
+    background-color: white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.modal-regle{
+    color: white;
+    border: 1px white solid ;
+    border-radius: 8px;
+    background-color: transparent;
+    padding: 7px;
+    padding-left: 22px;
+    padding-right: 22px;
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+}
+

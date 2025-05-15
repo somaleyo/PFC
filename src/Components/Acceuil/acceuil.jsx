@@ -12,9 +12,23 @@ export default function Main() {
            
             <div className="jeu">
                 <img className='triangle' src={triangle} alt="" />
-                <img className='paper' src={paper} alt="" />
-                <img className='cizo' src={cizo} alt="" />
-                <img className='rock' src={rock} alt="" />
+               
+                <button className="paper icon">
+                   <img className='' src={paper} alt="" />
+                </button>
+                <button className="cizo icon">
+                    <img className='' src={cizo} alt="" />
+                </button>
+                
+            <button className="icon rock">
+                <img className='' src={rock} alt="" />
+            </button> 
+            </div>
+            <button className="modal-regle">
+                RULES
+            </button>
+            <div className="regle">
+                    
             </div>
         </>
     )
