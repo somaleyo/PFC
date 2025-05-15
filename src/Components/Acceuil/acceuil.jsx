@@ -10,12 +10,12 @@ export default function Main(props) {
                     <h1>SCISSORS</h1>
                 </div>
                 <div className="resultat">
-                    <h2>Score : </h2>
+                    <h2>SCORE </h2>
                     <h1 className='score'>{props.score}</h1>
                 </div>
             </div>
             <div className="jeu">
-
+                
             </div>
         </>
     )
