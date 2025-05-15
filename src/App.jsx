@@ -2,13 +2,15 @@ import { useState } from 'react'
 
 import './App.css'
 import Main from './Components/Acceuil/acceuil'
+import Header from './Components/Header/Header'
 
 function App() {
 
 
   return (
     <>
-      <Main score="10"/>
+    <Header score="10"/>
+      <Main/>
     </>
   )
 }

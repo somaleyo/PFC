@@ -1,21 +1,20 @@
 import './acceuil.css'
+import triangle from "/src/assets/images/bg-triangle.svg"
 
-export default function Main(props) {
+import paper from "/src/assets/images/icon-paper.svg"
+import rock from "/src/assets/images/icon-rock.svg"
+import cizo from "/src/assets/images/icon-scissors.svg"
+
+
+export default function Main() {
     return(
         <>
-            <div id="score">
-                <div className="titre">
-                    <h1>ROCK</h1>
-                    <h1>PAPER</h1>
-                    <h1>SCISSORS</h1>
-                </div>
-                <div className="resultat">
-                    <h2>SCORE </h2>
-                    <h1 className='score'>{props.score}</h1>
-                </div>
-            </div>
+           
             <div className="jeu">
-                
+                <img className='triangle' src={triangle} alt="" />
+                <img className='triangle' src={paper} alt="" />
+                <img className='triangle' src={cizo} alt="" />
+                <img className='triangle' src={rock} alt="" />
             </div>
         </>
     )
