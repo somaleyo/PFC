@@ -10,3 +10,7 @@ body {
   overflow-y: hidden;
   overflow-x: hidden;
 }
+img{
+  width: 80px;
+  height: 80px;
+}

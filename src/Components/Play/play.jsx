@@ -10,8 +10,8 @@ export default function Play(props) {
     <>
         <div className="play-container">
              <div className='pick'>
-                <h2>YOU PICKED</h2>
-                <h2>THE HOUSE PICKED</h2>
+                <h2 className='anonce'>YOU PICKED</h2>
+                <h2 className='anonce'>THE HOUSE PICKED</h2>
             </div>
             <div className="choix">
                 <button className="paper-versus icon-versus">

@@ -1,53 +1,85 @@
 .play-container{
     display: flex;
+    flex-direction: column;
+    margin-top: -30px;
 }
 .paper-versus{
     position: absolute;
     bottom:  20%;
-    left: 38%;
-    border: 20px solid hsl(230, 89%, 62%);
+    left: 18%;
+    border: 25px solid hsl(230, 89%, 62%);
     box-shadow: 0px 6px 0px 0px hsl(230, 75%, 43%);
 }
 .rock-versus{
     position: absolute;
     bottom: 20%;
-    left: 45%;
-    border: 20px solid hsl(349, 71%, 52%);
+    left: 18%;
+    border: 25px solid hsl(349, 71%, 52%);
     box-shadow: 0px 6px 0px 0px hsl(349, 69%, 36%);
     box-sizing: 0px -10px 0px 0px black;
 }
 .cizo-versus{
     position: absolute;
     bottom: 20%;
-    right: 38%;
-    border: 20px solid hsl(39, 89%, 49%);
+    left: 18%;
+    border: 25px solid hsl(39, 89%, 49%);
     box-shadow: 0px 6px 0px 0px hsl(40, 79%, 35%);
 }
 .paper-ops{
     position: absolute;
     bottom:  20%;
-    left: 38%;
-    border: 20px solid hsl(230, 89%, 62%);
+    right: 22%;
+    border: 25px solid hsl(230, 89%, 62%);
     box-shadow: 0px 6px 0px 0px hsl(230, 75%, 43%);
 }
 .rock-ops{
     position: absolute;
     bottom: 20%;
-    right: 30%;
-    border: 20px solid hsl(349, 71%, 52%);
+    right: 22%;
+    border: 25px solid hsl(349, 71%, 52%);
     box-shadow: 0px 6px 0px 0px hsl(349, 69%, 36%);
     box-sizing: 0px -10px 0px 0px black;
 }
 .cizo-ops{
     position: absolute;
     bottom: 20%;
-    right: 38%;
-    border: 20px solid hsl(39, 89%, 49%);
+    right: 22%;
+    border: 25px solid hsl(39, 89%, 49%);
     box-shadow: 0px 6px 0px 0px hsl(40, 79%, 35%);
 }
 .icon-versus{
     background-color: white;
     border-radius: 50%;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
+}
+.anonce{
+    font-size: 25px;
+    color: white;
+    
+}
+.you{
+    font-size: 40px;
+}
+.restart{
+    background-color: white;
+    border:none;
+    border-radius: 10px;
+    padding: 12px;
+    padding-left: 40px;
+    padding-right:40px;
+    font-weight: 400;
+    
+ 
+}
+.pick{
+    display: flex;
+    width: 820px;
+    justify-content: space-between;
+    margin-left: -30px;
+}
+.result{
+    margin-left: 300px;
+    margin-top: 100px;
+
 }
