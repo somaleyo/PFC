@@ -14,8 +14,8 @@ export default function Play(props) {
                 <h2 className='anonce'>THE HOUSE PICKED</h2>
             </div>
             <div className="choix">
-                <button className="paper-versus icon-versus">
-                    <img className='' src={paper} alt="" />
+                <button className={props.choixclass}>
+                    <img className='' src={props.choix} alt="" />
                 </button>
                 <div className="result">
                     <h1 className='you'>{props.resultat} </h1>

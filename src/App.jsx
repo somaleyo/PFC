@@ -18,10 +18,10 @@ function App() {
 
   return (
     <>
-    <Header score="10"/>
+    <Header score="10"/>  
     {choix &&
-    <Main event={jeu}/>}
-      {play && <Play event={jeu} resultat="YOU WIN"opschoix={rock} opsclass="icon-versus rock-ops"/>}
+    <Main event={jeu} />}
+      {play && <Play event={jeu} resultat="YOU WIN"opschoix={rock} opsclass="icon-versus rock-ops" choix={paper} choixclass="paper-versus icon-versus"/>}
       
     </>
   )
