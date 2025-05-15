@@ -12,9 +12,9 @@ export default function Main() {
            
             <div className="jeu">
                 <img className='triangle' src={triangle} alt="" />
-                <img className='triangle' src={paper} alt="" />
-                <img className='triangle' src={cizo} alt="" />
-                <img className='triangle' src={rock} alt="" />
+                <img className='paper' src={paper} alt="" />
+                <img className='cizo' src={cizo} alt="" />
+                <img className='rock' src={rock} alt="" />
             </div>
         </>
     )

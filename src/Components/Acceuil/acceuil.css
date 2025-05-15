@@ -1,44 +1,27 @@
-#score{
-    width: 100%;
+.jeu{
     display: flex;
-    justify-content: space-between;
-    border:solid 2px hsl(217, 16%, 45%);
-    border-radius: 15px;
-    width: 700px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 130px;
-    align-items: center;
-    padding:5px;
-    padding-left:20px;
-    padding-right:20px;
-}
-#score h1{
-    margin: 0;
-    
-}
-
-.resultat{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    color: black;
-    width: 130px;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
-}
-h2{
-    color: hsl(229, 64%, 46%);
-    font-weight: 600;
-    font-size: 15px   ;
-    margin-bottom: 0px;
+    margin-top: 200px;
     
 }
-.score{
-    color: hsl(229, 25%, 31%);
-    font-size: 50px;
-    margin-top: -10px;
-    padding-bottom: 5px;
-   
+.triangle{
+    width: 220px;
+    z-index: -1;
+}
+
+.paper{
+    position: absolute;
+    bottom:  43%;
+    left: 41%;
+}
+.rock{
+    position: absolute;
+    bottom: 16%;
+    left: 48%;
+}
+.cizo{
+    position: absolute;
+    bottom: 43%;
+    right: 41%;
 }

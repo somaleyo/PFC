@@ -5,5 +5,8 @@ body {
   font-family: "Barlow Semi Condensed";
   color: white;
   display: flex;
+  height: 100vh;
   justify-content: center;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
