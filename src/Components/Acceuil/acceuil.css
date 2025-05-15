@@ -17,9 +17,7 @@
     margin: 0;
     
 }
-.titre{
-    
-}
+
 .resultat{
     display: flex;
     flex-direction: column;
