@@ -20,14 +20,14 @@ export default function Main(props) {
     const trojkont =   <img className='triangle' src={triangle} alt="" />
 
      const papier = <button onClick={props.event} className="paper icon">
-                   <img className='' src={paper} alt="" />
+                   <img className='home-icone' src={paper} alt="" />
                 </button>
 
     const kamien = <button onClick={props.event} className="icon rock">
-                    <img className='' src={rock} alt="" />
+                    <img className='home-icone' src={rock} alt="" />
                 </button>   
     const nozyce=  <button onClick={props.event} className="cizo icon">
-                    <img className='' src={cizo} alt="" />
+                    <img className='home-icone' src={cizo} alt="" />
                 </button>
     
     return(

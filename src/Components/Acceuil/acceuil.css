@@ -8,6 +8,7 @@
 .triangle{
     width: 280px;
     z-index: -1;
+    height: 220px;
 }
 
 .paper{
@@ -40,7 +41,10 @@
 }
 .icon:hover{
     cursor: pointer;
-    
+}
+.home-icone{
+    width: 45px;
+    height: 45px;
 }
 .modal-regle{
     color: white;
