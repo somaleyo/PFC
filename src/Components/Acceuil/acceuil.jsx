@@ -8,7 +8,8 @@ import cizo from "/src/assets/images/icon-scissors.svg"
 import rules from "/src/assets/images/image-rules.svg"
 import close from "/src/assets/images/icon-close.svg"
 import { useState } from 'react'
-export {papier, kamien,nozyce}
+
+
 export default function Main(props) {
     const [open, setOpen] = useState(false)
     
@@ -18,14 +19,14 @@ export default function Main(props) {
 
     const trojkont =   <img className='triangle' src={triangle} alt="" />
 
-    const papier = <button className="paper icon">
+     const papier = <button onClick={props.event} className="paper icon">
                    <img className='' src={paper} alt="" />
                 </button>
 
-    const kamien = <button className="icon rock">
+    const kamien = <button onClick={props.event} className="icon rock">
                     <img className='' src={rock} alt="" />
                 </button>   
-    const nozyce=  <button className="cizo icon">
+    const nozyce=  <button onClick={props.event} className="cizo icon">
                     <img className='' src={cizo} alt="" />
                 </button>
     

@@ -1,5 +1,9 @@
+import Main from '../Acceuil/acceuil'
 import './play.css'
-
+import paper from "/src/assets/images/icon-paper.svg"
+import rock from "/src/assets/images/icon-rock.svg"
+import cizo from "/src/assets/images/icon-scissors.svg"
+ 
 export default function Play(props) {
     
     return(
@@ -10,10 +14,24 @@ export default function Play(props) {
                 <h2>THE HOUSE PICKED</h2>
             </div>
             <div className="choix">
-                
+                <button className="paper icon">
+                    <img className='' src={paper} alt="" />
+                </button>
+                <div className="resultat">
+                    <h1 className='you'>{props.resultat} </h1>
+                    <button onClick={props.event} className="restart">
+                        PLAY AGAIN
+                    </button>
+                </div>
+                <div className="choix-ops">
+                    <button className={props.opsclass}>
+                        <img src={props.opschoix} alt="" />
+                    </button>
+                </div>
+               
             </div>
         </div>
-           
+
         
     </> 
 
