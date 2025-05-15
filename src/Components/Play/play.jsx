@@ -14,10 +14,10 @@ export default function Play(props) {
                 <h2>THE HOUSE PICKED</h2>
             </div>
             <div className="choix">
-                <button className="paper icon">
+                <button className="paper-versus icon-versus">
                     <img className='' src={paper} alt="" />
                 </button>
-                <div className="resultat">
+                <div className="result">
                     <h1 className='you'>{props.resultat} </h1>
                     <button onClick={props.event} className="restart">
                         PLAY AGAIN

@@ -4,7 +4,9 @@ import './App.css'
 import Main from './Components/Acceuil/acceuil'
 import Header from './Components/Header/Header'
 import Play from './Components/Play/play'
-
+import paper from "/src/assets/images/icon-paper.svg"
+import rock from "/src/assets/images/icon-rock.svg"
+import cizo from "/src/assets/images/icon-scissors.svg"
 function App() {
   const [play,setPlay] = useState(false)
   const [choix,setChoix] = useState(true)
@@ -19,7 +21,7 @@ function App() {
     <Header score="10"/>
     {choix &&
     <Main event={jeu}/>}
-      {play && <Play event={jeu} resultat="YOU WIN"/>}
+      {play && <Play event={jeu} resultat="YOU WIN"opschoix={rock} opsclass="icon-versus rock-ops"/>}
       
     </>
   )
