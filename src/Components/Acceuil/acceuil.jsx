@@ -16,6 +16,7 @@ export default function Main(props) {
         setOpen(!open)
     }
     
+    
     return(
         <>
             <div className="jeu">
