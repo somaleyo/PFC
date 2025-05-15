@@ -8,30 +8,38 @@ import cizo from "/src/assets/images/icon-scissors.svg"
 import rules from "/src/assets/images/image-rules.svg"
 import close from "/src/assets/images/icon-close.svg"
 import { useState } from 'react'
-
+export {papier, kamien,nozyce}
 export default function Main(props) {
     const [open, setOpen] = useState(false)
     
     const handleClick = () => {
         setOpen(!open)
     }
-    
+
+    const trojkont =   <img className='triangle' src={triangle} alt="" />
+
+    const papier = <button className="paper icon">
+                   <img className='' src={paper} alt="" />
+                </button>
+
+    const kamien = <button className="icon rock">
+                    <img className='' src={rock} alt="" />
+                </button>   
+    const nozyce=  <button className="cizo icon">
+                    <img className='' src={cizo} alt="" />
+                </button>
     
     return(
         <>
             <div className="jeu">
-                <img className='triangle' src={triangle} alt="" />
-               
-                <button className="paper icon">
-                   <img className='' src={paper} alt="" />
-                </button>
-                <button className="cizo icon">
-                    <img className='' src={cizo} alt="" />
-                </button>
+                {trojkont}
+                {papier}
+                {kamien}
+                {nozyce}
                 
-                <button className="icon rock">
-                    <img className='' src={rock} alt="" />
-                </button> 
+               
+                
+               
             </div>
             
             <button className="modal-regle" onClick={handleClick}>
