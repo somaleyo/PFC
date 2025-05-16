@@ -102,6 +102,7 @@
     margin-left: 30px;
     margin-top: 40px;
     height: 300px;
+    width: 330px;
 }
 .modal-bg{
     background-color: rgba(0, 0, 0, 0.588);
@@ -111,4 +112,40 @@
     position: fixed;
     top: 0;
     left: 0;
+}
+@media (max-width: 426px){
+
+    .paper{
+    bottom:  33%;
+    left: 10%;
+}
+.rock{
+    bottom: 7%;
+    left: 33%;
+    
+}
+.cizo{
+    bottom: 33%;
+    right: 7%;
+    
+}
+.regle{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 0;
+}
+.close{
+    top: 75%;
+    left: 45%;
+    position: absolute;
+
+}
+.rules-titre{
+    margin-left: 145px;
+}
+.modal-regle{
+    right: 40%;
+}
 }
