@@ -216,3 +216,29 @@
     top:14%
 }
 }
+@media (min-width:1025px) and (max-width:1441px){
+    .triangle{
+        width: 450px;
+        height: 300px;
+    }
+    .icon{
+    background-color: white;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+.paper{
+    bottom: 42%;
+    left: 32%;
+}
+.rock{
+    bottom: 10%;
+    left: 44%;
+    
+}
+.cizo{
+    bottom: 42%;
+    right: 32%;
+    
+}
+}
