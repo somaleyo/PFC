@@ -176,18 +176,43 @@
     border-radius: 0;
 }
 .close{
-    top: 75%;
-    left: 45%;
+    top: 80%;
+    left: 48%;
     position: absolute;
 
 }
 .rules-titre{
-    margin-left: 145px;
+    margin-left: 320px;
 }
 .modal-regle{
     right: 2%;
 }
 .jeu{
     margin-top: 120px;
+}
+.regle-img{
+    width: 400px;
+    margin-left: 170px;
+    height: 400px;
+}
+}
+@media (min-width:769px) and (max-width:1025px){
+.paper{
+    bottom: 35%;
+    left: 31%;
+}
+.rock{
+    bottom: 6%;
+    left: 43%;
+    
+}
+.cizo{
+    bottom: 35%;
+    right: 31%;
+    
+}
+.regle{
+    left:30%;
+    top:14%
 }
 }
