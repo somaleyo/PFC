@@ -202,7 +202,7 @@ img{
 .rock-ops{
     bottom: 25%;
     right: 10%;
-    border: 2Opx solid hsl(349, 71%, 52%);
+    border: 20px solid hsl(349, 71%, 52%);
 }
 .cizo-ops{
     position: absolute;
@@ -258,4 +258,48 @@ img{
     height: 400px;
 }
 
+}
+@media (min-width:769px) and (max-width:1025px){
+    .icon-versus{
+        width: 220px;
+        height: 220px;
+    }
+    .paper-versus{
+    bottom:  15%;
+    left: 5%;
+
+}
+.rock-versus{
+    bottom: 15%;
+    left: 5%;
+  
+  
+}
+.cizo-versus{
+    bottom: 15%;
+    left: 5%;
+}
+.paper-ops{
+    bottom:  15%;
+    right: 5%;
+  
+}
+.rock-ops{
+    bottom: 15%;
+    right: 5%;
+
+}
+.cizo-ops{
+    position: absolute;
+    bottom: 15%;
+    right: 5%;
+    
+}
+.pick{
+    width: 850px;
+    margin-left: 50px;
+}
+.result{
+    margin-left: 400px;
+}
 }
