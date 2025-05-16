@@ -116,16 +116,16 @@
 @media (max-width: 426px){
 
     .paper{
-    bottom:  33%;
+    bottom:  43%;
     left: 10%;
 }
 .rock{
-    bottom: 7%;
+    bottom: 14%;
     left: 33%;
     
 }
 .cizo{
-    bottom: 33%;
+    bottom: 43%;
     right: 7%;
     
 }
@@ -147,5 +147,8 @@
 }
 .modal-regle{
     right: 40%;
+}
+.jeu{
+    margin-top: 120px;
 }
 }

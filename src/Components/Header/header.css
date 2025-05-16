@@ -42,3 +42,18 @@ h2{
     padding-bottom: 5px;
    
 }
+@media (max-width:426px){
+    #score{
+        width: 360px;
+        height: 100px;
+        margin-bottom: 0;
+        
+    }
+    .titre h1{
+        font-size: 25px;
+    }
+    .score{
+        font-size: 40px;
+    }
+
+}
