@@ -17,9 +17,9 @@ export default function Main(props) {
     
     // Options du jeu
     const choices = props.choices || [
-        { name: "paper", image: paper, class: "paper-versus icon-versus", opsClass: "icon-versus paper-ops" },
-        { name: "rock", image: rock, class: "rock-versus icon-versus", opsClass: "icon-versus rock-ops" },
-        { name: "scissors", image: cizo, class: "cizo-versus icon-versus", opsClass: "icon-versus cizo-ops" }
+        { name: "paper", image: paper, class: "paper-versus icon-versus ", opsClass: "icon-versus paper-ops " },
+        { name: "rock", image: rock, class: "rock-versus icon-versus ", opsClass: "icon-versus rock-ops " },
+        { name: "scissors", image: cizo, class: "cizo-versus icon-versus ", opsClass: "icon-versus cizo-ops " }
     ];
     
     // Fonction qui transmet le choix de l'utilisateur à App.jsx
